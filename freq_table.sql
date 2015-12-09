@@ -47,7 +47,7 @@ CREATE TABLE `freq_table` (
 
 LOCK TABLES `freq_table` WRITE;
 /*!40000 ALTER TABLE `freq_table` DISABLE KEYS */;
-INSERT INTO `freq_table` VALUES (4,'Big Tme Frozen Broccoli,Token Apple Drink'),(4,'Tri-State New Potatos,Hilltop Angled Toothbrush');
+INSERT INTO `freq_table` VALUES (4,'Big Tye Frozen Broccoli,Token Apple Drink'),(4,'Tri-State New Potatos,Hilltop Angled Toothbrush');
 /*!40000 ALTER TABLE `freq_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
