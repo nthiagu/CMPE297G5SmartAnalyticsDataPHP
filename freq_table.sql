@@ -3,13 +3,17 @@
 -- Host: 127.0.0.1    Database: reco_data
 -- ------------------------------------------------------
 -- Created by Thiagarajan Natarajan
--- Creation Date : Sunday Dec 08, 2015 
--- Purpose : 	This script computes the Frequently bought items
---           	for a given Customer - based on an analysis 
--- 		of the Customer's past buying patterns
---		retrieved and computed from the sales table.
---	This is the source of data for the ' Frequently bought items' 
---	screen in SmartAnalytics application. 
+-- Creation Date : Tuesday Dec 08, 2015 
+-- Purpose : 	 CMPE297 Fall 2015
+--	This script computes the group of items 
+--	that are purchased by a set of customers 
+--      Retailers can use this data to manage their 
+--	SHELF arrangements to keep specific items 
+--	closer to each other to enhnace the customer
+--	shopping experience.
+--
+--	 This is the source of data for the 'SHELF SUGGESTION'  
+--	 screen in SmartAnalytics application. 
 -- ------------------------------------------------------
 -- Server version	5.7.9
 
@@ -43,7 +47,7 @@ CREATE TABLE `freq_table` (
 
 LOCK TABLES `freq_table` WRITE;
 /*!40000 ALTER TABLE `freq_table` DISABLE KEYS */;
-INSERT INTO `freq_table` VALUES (4,'Big Time Frozen Broccoli,Token Apple Drink'),(4,'Tri-State New Potatos,Hilltop Angled Toothbrush');
+INSERT INTO `freq_table` VALUES (4,'Big Tme Frozen Broccoli,Token Apple Drink'),(4,'Tri-State New Potatos,Hilltop Angled Toothbrush');
 /*!40000 ALTER TABLE `freq_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
